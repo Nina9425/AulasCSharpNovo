@@ -11,7 +11,7 @@ string Surname = "Cabezas";
 
 Console.WriteLine("Meu nome completo é: " + firstName +" " + lastName+ " " + Surname);
 
-int idade = 30;
+//int idade = 30;
 
 
 Console.WriteLine($"Meu nome completo é:{firstName} {lastName} {Surname} é a minha idade {idade}");
