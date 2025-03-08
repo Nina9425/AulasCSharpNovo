@@ -23,7 +23,7 @@ namespace ContaCorrente
             if (valor > 0)
             {
                 Saldo += valor;
-                Console.WriteLine($"Depósito de valor no{valor}, agora tem salde de:  {Saldo} ");
+                Console.WriteLine($"Depósito de valor es de: {valor}, agora tem saldo de:  {Saldo} ");
             }
             else
             {
