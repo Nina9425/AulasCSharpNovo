@@ -8,11 +8,13 @@
             Produto produto2 = new Produto(250, "Paçoca", 10.50);
             Produto produto3 = new Produto(221, "Chá baer Matte", 7.99);
 
+
+
             Console.WriteLine(produto1.getDetailProduct());
             Console.WriteLine(produto2.getDetailProduct());
             Console.WriteLine(produto3.getDetailProduct());
 
-            Retangulo retangulo=new perim
+           // Retangulo retangulo=new perim
         }
     }
 }
