@@ -66,13 +66,6 @@
             fruitList.ForEach(fruta=>Console.WriteLine(fruta));
 
 
-
-
-
-
-
-            
-
             //  arraysFrutas[0] = "bananas";
             // arraysFrutas[1] = "Maça";
             // arraysFrutas[2] = "Pera";
