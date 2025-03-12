@@ -5,54 +5,37 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace SistemaCadastroAluno
 {
+
     internal class Aluno
     {
+      //  public int Id;
         public string Nome;
-        public string CPF;
+        public int Idade;
+        public string Matricula;
         public string Email;
-        public string Telefono;
-        public string Genero;
-        public int Matricula;
+        public string Telefone;
+        public string Genero;       
         public string Curso;
-        public int operacao;
+        
 
-        public Aluno(string nome, string cpf, string email, string telefono, string genero, int matricula, string curso)
+       
+
+        public Aluno(string nome, int idade, string matricula, string curso, string telefone, string email)
         {
             Nome = nome;
-            CPF = cpf;
-            Email = email;
-            Telefono = telefono;
-            Genero = genero;
+            Idade = idade;
             Matricula = matricula;
             Curso = curso;
+            Telefone = telefone;
+            Email = email;
         }
-
-       /* public void Cadastrar()
+        public override string ToString()
         {
-            Console.WriteLine("Ingrese Nome:");
-            Nome = Console.ReadLine();
-            Console.WriteLine("Ingrese CPF:");
-            CPF = Console.ReadLine();
-            Console.WriteLine("VERIFICADO Y CADASTRADO");
-
-            Console.Write("Opção: ");
-            operacao = Convert.ToInt32(Console.ReadLine());
-
-            switch (operacao)
-            {
-
-                case 1:
-
-
-
-
-
-
-
-
-            }
-        }*/
+            return $"Nome: {Nome}, Idade: {Idade}, Matrícula: {Matricula}, Curso:{Curso},Telefone:[ {Telefone}], Email [{Email}]";
+        }
     }
+
 }
