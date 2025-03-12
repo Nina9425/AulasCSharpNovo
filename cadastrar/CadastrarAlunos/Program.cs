@@ -17,8 +17,6 @@ namespace CadastrarAlunos
 
                     Console.WriteLine("\nEscolha uma opção:");
                     Console.WriteLine("1 - Adicionar Aluno");
-                   // Console.WriteLine("2 - Remover Aluno");
-                    // Console.WriteLine("3 - Atualizar Aluno");
                     Console.WriteLine("2 - Listar Alunos");
                     Console.WriteLine("3 - Sair");
                     Console.Write("Opção: ");
@@ -49,20 +47,7 @@ namespace CadastrarAlunos
                             cadastro.AdicionarAluno(id, nome, idade, matricula,curso,telefono, email);
                             break;
                             
-                        /*case 2:
-                            Console.Write("Digite o ID do aluno a ser removido: ");
-                            int idRemover = int.Parse(Console.ReadLine());
-                            cadastro.RemoverAluno(idRemover);
-                            break;
-                        case 3:
-                            Console.Write("Digite o ID do aluno a ser atualizado: ");
-                            int idAtualizar = int.Parse(Console.ReadLine());
-                            Console.Write("Digite o novo nome: ");
-                            string novoNome = Console.ReadLine();
-                            Console.Write("Digite a nova idade: ");
-                            int novaIdade = int.Parse(Console.ReadLine());
-                            cadastro.AtualizarAluno(idAtualizar, novoNome, novaIdade);
-                            break;*/
+                        
                         case 2:
                             cadastro.ListarAlunos();
                             break;

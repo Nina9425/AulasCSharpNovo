@@ -40,36 +40,7 @@ namespace CadastrarAlunos
             alunos.Add(new Aluno { Id = id, Nome = nome, Idade = idade, Matricula=matricula, Curso=curso, Telefone=telefone, Email=email });
             Console.WriteLine($"Aluno {nome} adicionado com sucesso!");
         }
-        /*
-        public void RemoverAluno(int id)
-        {
-            var aluno = alunos.Find(a => a.Id == id);
-            if (aluno != null)
-            {
-                alunos.Remove(aluno);
-                Console.WriteLine($"Aluno {aluno.Nome} removido com sucesso!");
-            }
-            else
-            {
-                Console.WriteLine("Aluno não encontrado!");
-            }
-        }
-
-        public void AtualizarAluno(int id, string novoNome, int novaIdade)
-        {
-            var aluno = alunos.Find(a => a.Id == id);
-            if (aluno != null)
-            {
-                aluno.Nome = novoNome;
-                aluno.Idade = novaIdade;
-                Console.WriteLine($"Aluno {id} atualizado com sucesso!");
-            }
-            else
-            {
-                Console.WriteLine("Aluno não encontrado!");
-            }
-        }
-        */
+        
         public void ListarAlunos()
         {
             Console.WriteLine("Lista de alunos:");
